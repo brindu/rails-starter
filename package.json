@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo": "^8.0.23",
+    "@tailwindcss/vite": "^4.2.4",
+    "stimulus-vite-helpers": "^3.1.0",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "@herb-tools/formatter": "^0.10.1",
+    "@herb-tools/linter": "^0.10.1",
+    "prettier": "^3.8.3",
+    "rails-vite-plugin": "^0.2.4",
+    "vite": "^8.0.10"
+  }
+}

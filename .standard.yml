@@ -1,0 +1,10 @@
+ruby_version: 4.0
+ignore:
+  - "db/schema.rb"
+  - "db/*_schema.rb"
+  - "db/migrate/*.rb"
+  - "vendor/**/*"
+  - "tmp/**/*"
+  - "log/**/*"
+  - "node_modules/**/*"
+  - "bin/**/*"
