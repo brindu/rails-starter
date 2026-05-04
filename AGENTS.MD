@@ -1017,7 +1017,7 @@ class ApplicationForm
     end
 
     def model_name
-      @model_name ||= ActiveModel::Name.new(nil, nil, self.class.name.sub(/Form$/, ""))
+      @model_name ||= ActiveModel::Name.new(nil, nil, name.sub(/Form$/, ""))
     end
   end
 
